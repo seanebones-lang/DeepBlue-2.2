@@ -1,0 +1,21 @@
+{
+  "name": "deepblue-replica",
+  "version": "2.0.0",
+  "description": "DeepBlue AI System Replica",
+  "main": "deepblue_replica_system.py",
+  "scripts": {
+    "start": "python deepblue_replica_system.py",
+    "dev": "python -m uvicorn deepblue_replica_system:app --reload",
+    "test": "pytest",
+    "lint": "flake8 .",
+    "format": "black ."
+  },
+  "keywords": [
+    "ai",
+    "deepblue",
+    "replica",
+    "hallucination-prevention"
+  ],
+  "author": "DeepBlue Team",
+  "license": "MIT"
+}
